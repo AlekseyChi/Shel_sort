@@ -23,9 +23,3 @@ vector<int> shellsort(vector<int> aVector)
         }
     return aVector;
 }
-
-vector<double> shellsort(vector<double> aVector)
-{
-    //return unsorted vector if data doesn't match your method
-    return aVector;
-}
