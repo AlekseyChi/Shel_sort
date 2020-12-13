@@ -7,7 +7,7 @@ vector<int> shellsort(vector<int> aVector)
 {
     int end = aVector.size() - 1;
     int h;
-    for (h = 1; h <= end / 9; h = 3 * h + 1);
+    for (h = 1; h <= end; h = 3 * h + 1);
 
     for (; h > 0; h /= 3)
         for (auto i = h; i <= end; i++)
